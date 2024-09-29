@@ -641,8 +641,8 @@ opacity: 1;
  border: none;
 }
 .form-close-btn:hover .form-close-icon,
-.form-close-btn:focus, .form-close-icon {
-  fill: #FFFFFF;
+.form-close-btn:focus .form-close-icon {
+  fill:#ffffff;
 }
 .form-close-icon {
   fill: #2E2F42;
