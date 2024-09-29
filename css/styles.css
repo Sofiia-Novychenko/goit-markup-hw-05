@@ -496,7 +496,7 @@ margin-bottom: 72px;
  fill: #f4f4fd;
 }
 
-.subscr-label {
+.subscr-title {
   font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -508,13 +508,11 @@ margin-bottom: 72px;
 }
 .subscr-form {
   display: flex;
-  justify-content: center;
   gap: 24px;
 }
 
 .subscr-input {
   padding-left: 16px;
-  margin-right: 24px;
 
   border: 1px solid #fff;
   border-radius: 4px;
@@ -525,15 +523,11 @@ margin-bottom: 72px;
 
   font-family: inherit;
   font-size: 12px;
-  line-height: 200%;
+  line-height: 2;
   letter-spacing: 0.04em;
   color: #fff;
 }
 .subscr-input::placeholder {
-font-family: inherit;
-  font-size: 12px;
-  line-height: 200%;
-  letter-spacing: 0.04em;
   color: #fff;
 }
 
@@ -557,11 +551,10 @@ font-family: inherit;
   height: 40px;
   border: none;
   display: flex;
-  justify-content: space-between;
-  padding: 8px 24px;
+  justify-content: center;
+  align-items: center;
     
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);  
 }
     
 .subscr-form-btn:hover,
@@ -569,7 +562,7 @@ font-family: inherit;
       background-color: #404bbf;
 }
 .sbrscr-form-icon {
- position: absolute;
+ margin-left: 16px;
   top: 8px;
   right: 24px; 
 
